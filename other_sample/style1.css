@@ -1,0 +1,160 @@
+html{
+   
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.three-columns{
+    display: flex;
+}
+.left-data{
+    width:28%;
+}
+
+.right-data{
+    width:30%;
+}
+.center-data{
+    width:42%;
+    display: flex;
+    flex-direction: column;
+    }
+.name-tweets{
+    margin-top: 5px;
+}
+.previous{
+    margin-top:5px;
+}
+.name{
+    font-weight: 800;
+    margin-left:5%;
+    font-size:18px;
+}
+
+img {
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    display: block;
+    }
+  
+.cover-img{
+    z-index: 1;
+    height:180px;
+    display:none;
+  }
+.profile-img{
+    height:130px;
+    border-radius: 50%;
+    z-index: 3;
+    border-width:5px;
+    border-style: solid;
+    border-color: white;
+    top:20%;
+    left:29%;
+}
+.name-2{
+    position:absolute;
+    top:38%;
+    left:30%;
+    font-weight: 800;
+}
+.username{
+    position:absolute;
+    top:41%;
+    left:30%;
+    font-size: small;
+    color: gray;
+    padding-top:5px;
+}
+
+
+#joined {
+    display: inline-block;
+    position: relative;
+    padding-top:10px;
+  
+  }
+  #joined:before {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -4px;
+    top:5px;
+    background-image:url("assets/calender.png");
+    background-size: 100%;
+    content: "";
+  }
+  
+.follow-numbers{
+    position:absolute;
+    top:49%;
+    left:30%;
+    font-size: small;
+    color: gray;
+    
+}
+.numbers{
+    color: black;
+    font-weight: 800;
+    
+}
+
+.follow{
+    position:absolute;
+    top:31%;
+    left:57%;
+    padding:10px 12px;
+    background-color:#00ACEE;
+    color:white;
+    border:none;
+    font-weight: 700;
+    border-radius:20px;
+
+}
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    min-width: 0;
+    max-width:70%; 
+       
+}
+/*
+.menu-bar>*{
+    flex:1 1 auto;
+}
+*/
+
+/*
+#tweets{
+    flex:auto;
+}
+#tweetsANDreplies{
+    flex:auto;
+}
+#media{
+    flex:auto;
+}
+#likes{
+    flex:auto;
+}
+*/
+
+/*
+think about absolute and relative
+how can i use other methods to place this instead of absolute and relative
+.profile-info{
+    text-align: justify;
+    width:auto;
+}
+.profile-info, .profile-img{
+    display: block;
+    margin:0 auto;
+}
+*/
+

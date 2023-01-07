@@ -1,0 +1,194 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.three-columns{
+    display: flex;
+}
+
+.left-data{
+    width:28%;
+}
+
+.right-data{
+    width:33%;
+}
+.center-data{
+    width:39%;
+    border:1px solid lightgray;
+}
+.name-tweets{
+    padding: 2px 0 10px 0;
+    display:flex;
+    
+}
+.previous{
+    background-color:white;
+    border:none;
+    color:#00ACEE;
+    font-size:x-large;
+}
+.name{
+    font-weight: 700;
+    margin-left:20px;
+    font-size:20px;
+    position: relative;
+}
+.name::after{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 102px;
+    top:0px;
+    background-image:url("assets/Verified.png");
+    background-size: 100%;
+    content: "";
+}
+.total-tweets{
+    color:gray;
+    font-size:11px;
+    font-weight: 550;
+
+}
+
+.profile-info{
+    display: flex;
+
+}
+/*
+.img-section{
+    display: flex;
+    justify-content: center;
+}
+*/
+
+.two-images{
+    position: relative;
+}
+
+
+.cover-img {
+    top: 7%;
+    left: 28%;
+    height:190px;
+    width:600px;
+    }
+.profile-img{
+    position: absolute;
+    bottom:-70px;
+    left:15px;
+    height:130px;
+    border-radius: 50%;
+    z-index: 3;
+    border-width:5px;
+    border-style: solid;
+    border-color: white;
+
+    
+    }
+    .username-info{
+        position:relative;
+        padding:70px 0 0 15px;
+    }
+    .name-2{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .name-2::after{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-image:url("assets/Verified.png");
+        background-size: 100%;
+        content: "";
+    }
+    
+    .username{
+        position:relative;
+        font-size: 14px;
+        color: gray;
+        padding-top:1px;
+    }
+    
+    #joined {
+        display: inline-block;
+        position: relative;
+        padding-top:20px;
+      
+      }
+      #joined:before {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: -4px;
+        top:15px;
+        background-image:url("assets/calender.png");
+        background-size: 100%;
+        content:"";
+      }
+    
+
+       
+.follow-numbers{
+    position:relative;
+    padding:10px 0 0 0;
+    font-size: small;
+    color: gray;
+    
+}
+.numbers{
+    color: black;
+    font-weight: 800;
+    
+}
+
+.follow-btn{
+    position:absolute;
+    top:39%;
+    left:64%;
+    padding:10px 12px;
+    background-color:#00ACEE;
+    color:white;
+    border:none;
+    font-weight: 700;
+    border-radius:20px;
+
+}
+
+.menu-bar{
+    display: flex;
+    padding:25px 0 15px 0 ;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    min-width: 0;
+    max-width:100%;
+    font-size: small;
+    font-weight: 700;
+    color: #676767;    
+    border-bottom: 1px solid lightgray;  
+}
+
+#tweets{
+    color:#00ACEE;
+}
+
+.profile-img-2{
+    height:40px;
+    border-radius: 50%;
+}
+.last-tweet{
+    display: flex;
+    padding:10px 10px 10px 10px;
+    align-items:flex-start;
+}   
+.name-tweet-text{
+    width:85%;
+    margin-left:20px;
+}
+
